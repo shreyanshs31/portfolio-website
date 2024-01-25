@@ -172,11 +172,6 @@ img {
     padding: 5em 1.5em 1em 1.5em;
 }
 
-.container-is-narrow {
-    max-width: 1200px;
-
-}
-
 .box {
     padding: 0;
     border-radius: 12px;
