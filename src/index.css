@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root{
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.active > li{
+    border-radius: 2rem; /* rounded-4xl */
+    background-color: #171717; /* bg-neutral-900 */
+    color: oklch(92.2% 0 0);
+    transition-duration: 700ms;
+    transition-timing-function: var(--ease-out);
+}
