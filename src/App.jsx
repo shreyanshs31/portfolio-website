@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
-import NotFound from "./components/NotFound"
 import About from "./pages/About"
+import NotFound from "./components/NotFound"
 import CV from "./pages/CV"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/about" element={<About />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/cv" element={<CV />}/>
-          <Route path="*" element= {<NotFound/>}/>
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
       </div>
     </div>
