@@ -9,7 +9,7 @@ export const projects = [
         title: "Customer Segmentation by Purchasing Behavior",
         date : "June,2025",
         info : "Achieved actionable customer segmentation, measured by clear differentiation across RFM metrics, by applying K-Means clustering on purchasing behavior data. It is business-aligned cluster distribution, by processing e-commerce transaction data.",
-        link : ""
+        link : "https://github.com/shreyanshs31/customer-segmentation"
     },
     {
         title: "Iris-Classification-API",
